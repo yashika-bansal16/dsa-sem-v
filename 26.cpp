@@ -1,4 +1,3 @@
-//swap matrix elemnts - you are a matrix of n*m swap each element with elements in its immediate bottom right cell if its exit print the modified matrix.first line contains two integers n and m the size of the matrix next n lines contains m space separated integers each representing the elements of the matrix
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -21,7 +20,7 @@ int main() {
             swap(mat[i][j], mat[i+1][j+1]);
         }  
     }
-    
+    cout<<endl;
     
     for(int i=0;i<n;i++)
     {
